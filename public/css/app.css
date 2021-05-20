@@ -477,6 +477,11 @@ main#home .container .flip-card {
   margin: 10px 10px;
   width: calc(100% / 5 - 20px);
 }
+@media all and (max-width: 991px) {
+  main#home .container .flip-card {
+    width: calc(100% / 3 - 20px);
+  }
+}
 main#home .container .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
